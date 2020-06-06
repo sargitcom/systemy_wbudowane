@@ -1,0 +1,501 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"1 /opt/microchip/xc8/v2.10/pic/sources/c99/common/abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"7 /opt/microchip/xc8/v2.10/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 /opt/microchip/xc8/v2.10/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.10/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.10/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.10/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.10/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.10/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.10/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 /opt/microchip/xc8/v2.10/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.10/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.10/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.10/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.10/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"81 /var/www/html/systemy_wbudowane/zadanie_1/Cwiczenie1.X/main.c
+[v _intToBinary intToBinary `(v  1 e 1 0 ]
+"91
+[v _printMask printMask `(v  1 e 1 0 ]
+"107
+[v _cprog_strrev cprog_strrev `(*.2uc  1 e 2 0 ]
+"143
+[v _delay delay `(v  1 e 1 0 ]
+"177
+[v _lcd_wr lcd_wr `(v  1 e 1 0 ]
+"182
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"193
+[v _lcd_dat lcd_dat `(v  1 e 1 0 ]
+"204
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"223
+[v _lcd_str lcd_str `(v  1 e 1 0 ]
+"234
+[v _subProgram1 subProgram1 `(v  1 e 1 0 ]
+"264
+[v _subProgram2 subProgram2 `(v  1 e 1 0 ]
+"294
+[v _convertValueToGrayCode convertValueToGrayCode `(uc  1 e 1 0 ]
+"299
+[v _subProgram3 subProgram3 `(v  1 e 1 0 ]
+"331
+[v _subProgram4 subProgram4 `(v  1 e 1 0 ]
+"363
+[v _convertIntoToBCD convertIntoToBCD `(uc  1 e 1 0 ]
+"368
+[v _subProgram5 subProgram5 `(v  1 e 1 0 ]
+"400
+[v _subProgram6 subProgram6 `(v  1 e 1 0 ]
+"432
+[v _nextSnake nextSnake `(uc  1 e 1 0 ]
+"451
+[v _subProgram7 subProgram7 `(v  1 e 1 0 ]
+"478
+[v _clearMaskFromNthPosition clearMaskFromNthPosition `(v  1 e 1 0 ]
+"485
+[v _subProgram8 subProgram8 `(v  1 e 1 0 ]
+"522
+[v _getGeneratedValue getGeneratedValue `(uc  1 e 1 0 ]
+"539
+[v _subProgram9 subProgram9 `(v  1 e 1 0 ]
+"559
+[v _runSubProgram runSubProgram `(v  1 e 1 0 ]
+"600
+[v _isProgramInterupted isProgramInterupted `(i  1 e 2 0 ]
+"617
+[v _changeProgram changeProgram `(v  1 e 1 0 ]
+"649
+[v _main main `(v  1 e 1 0 ]
+[s S203 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"230 /opt/microchip/xc8/v2.10/pic/include/pic18f4620.h
+[s S212 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S221 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S230 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S233 . 1 `S203 1 . 1 0 `S212 1 . 1 0 `S221 1 . 1 0 `S230 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES233  1 e 1 @3969 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+[s S105 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"735
+[s S110 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
+]
+[s S115 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S117 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S120 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S123 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S126 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S131 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S136 . 1 `uc 1 PD2 1 0 :1:0 
+`uc 1 PC2 1 0 :1:1 
+`uc 1 CCP10 1 0 :1:2 
+`uc 1 CCP9E 1 0 :1:3 
+]
+[s S141 . 1 `uc 1 RDE 1 0 :1:0 
+`uc 1 WRE 1 0 :1:1 
+`uc 1 PB2 1 0 :1:2 
+`uc 1 PC3E 1 0 :1:3 
+]
+[u S146 . 1 `S105 1 . 1 0 `S110 1 . 1 0 `S115 1 . 1 0 `S117 1 . 1 0 `S120 1 . 1 0 `S123 1 . 1 0 `S126 1 . 1 0 `S131 1 . 1 0 `S136 1 . 1 0 `S141 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES146  1 e 1 @3972 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4373
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4444
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4529
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S35 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4573
+[s S38 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S42 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S49 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S52 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S55 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S58 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S61 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S64 . 1 `S35 1 . 1 0 `S38 1 . 1 0 `S42 1 . 1 0 `S49 1 . 1 0 `S52 1 . 1 0 `S55 1 . 1 0 `S58 1 . 1 0 `S61 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES64  1 e 1 @4034 ]
+"4655
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"4662
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"79 /var/www/html/systemy_wbudowane/zadanie_1/Cwiczenie1.X/main.c
+[v _direction direction `uc  1 e 1 0 ]
+"649
+[v _main main `(v  1 e 1 0 ]
+{
+"664
+[v main@program program `ui  1 a 2 25 ]
+"673
+} 0
+"559
+[v _runSubProgram runSubProgram `(v  1 e 1 0 ]
+{
+[v runSubProgram@program program `ui  1 p 2 21 ]
+"598
+} 0
+"539
+[v _subProgram9 subProgram9 `(v  1 e 1 0 ]
+{
+"546
+[v subProgram9@binBuffer binBuffer `[8]uc  1 a 8 7 ]
+"545
+[v subProgram9@seed seed `uc  1 a 1 15 ]
+"557
+} 0
+"522
+[v _getGeneratedValue getGeneratedValue `(uc  1 e 1 0 ]
+{
+[v getGeneratedValue@seed seed `uc  1 a 1 wreg ]
+"531
+[v getGeneratedValue@xoredBits xoredBits `uc  1 a 1 5 ]
+"529
+[v getGeneratedValue@sixthBit sixthBit `uc  1 a 1 4 ]
+"528
+[v getGeneratedValue@fifthBit fifthBit `uc  1 a 1 3 ]
+"527
+[v getGeneratedValue@secondBit secondBit `uc  1 a 1 2 ]
+"526
+[v getGeneratedValue@firstBit firstBit `uc  1 a 1 1 ]
+"524
+[v getGeneratedValue@rolledSeed rolledSeed `uc  1 a 1 0 ]
+"522
+[v getGeneratedValue@seed seed `uc  1 a 1 wreg ]
+"524
+[v getGeneratedValue@seed seed `uc  1 a 1 6 ]
+"537
+} 0
+"485
+[v _subProgram8 subProgram8 `(v  1 e 1 0 ]
+{
+"504
+[v subProgram8@i i `i  1 a 2 18 ]
+"503
+[v subProgram8@j j `i  1 a 2 16 ]
+"492
+[v subProgram8@mask mask `[8]uc  1 a 8 8 ]
+"520
+} 0
+"478
+[v _clearMaskFromNthPosition clearMaskFromNthPosition `(v  1 e 1 0 ]
+{
+"480
+[v clearMaskFromNthPosition@i i `i  1 a 2 4 ]
+"478
+[v clearMaskFromNthPosition@mask mask `*.39uc  1 p 2 0 ]
+[v clearMaskFromNthPosition@position position `i  1 p 2 2 ]
+"483
+} 0
+"451
+[v _subProgram7 subProgram7 `(v  1 e 1 0 ]
+{
+"459
+[v subProgram7@binBuffer binBuffer `[8]uc  1 a 8 7 ]
+"458
+[v subProgram7@snake snake `uc  1 a 1 16 ]
+"457
+[v subProgram7@counterDisplay counterDisplay `uc  1 a 1 15 ]
+"476
+} 0
+"432
+[v _nextSnake nextSnake `(uc  1 e 1 0 ]
+{
+[v nextSnake@snake snake `uc  1 a 1 wreg ]
+"434
+[v nextSnake@result result `uc  1 a 1 1 ]
+"432
+[v nextSnake@snake snake `uc  1 a 1 wreg ]
+"434
+[v nextSnake@snake snake `uc  1 a 1 0 ]
+"449
+} 0
+"400
+[v _subProgram6 subProgram6 `(v  1 e 1 0 ]
+{
+"405
+[v subProgram6@binBuffer binBuffer `[8]uc  1 a 8 11 ]
+"402
+[v subProgram6@counter counter `uc  1 a 1 20 ]
+"403
+[v subProgram6@counterDisplay counterDisplay `uc  1 a 1 19 ]
+"430
+} 0
+"368
+[v _subProgram5 subProgram5 `(v  1 e 1 0 ]
+{
+"373
+[v subProgram5@binBuffer binBuffer `[8]uc  1 a 8 11 ]
+"370
+[v subProgram5@counter counter `uc  1 a 1 20 ]
+"371
+[v subProgram5@counterDisplay counterDisplay `uc  1 a 1 19 ]
+"398
+} 0
+"363
+[v _convertIntoToBCD convertIntoToBCD `(uc  1 e 1 0 ]
+{
+[v convertIntoToBCD@counter counter `uc  1 a 1 wreg ]
+[v convertIntoToBCD@counter counter `uc  1 a 1 wreg ]
+"365
+[v convertIntoToBCD@counter counter `uc  1 a 1 10 ]
+"366
+} 0
+"7 /opt/microchip/xc8/v2.10/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 /opt/microchip/xc8/v2.10/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"331 /var/www/html/systemy_wbudowane/zadanie_1/Cwiczenie1.X/main.c
+[v _subProgram4 subProgram4 `(v  1 e 1 0 ]
+{
+"336
+[v subProgram4@binBuffer binBuffer `[8]uc  1 a 8 7 ]
+"333
+[v subProgram4@counter counter `uc  1 a 1 16 ]
+"334
+[v subProgram4@counterDisplay counterDisplay `uc  1 a 1 15 ]
+"361
+} 0
+"299
+[v _subProgram3 subProgram3 `(v  1 e 1 0 ]
+{
+"304
+[v subProgram3@binBuffer binBuffer `[8]uc  1 a 8 7 ]
+"301
+[v subProgram3@counter counter `uc  1 a 1 16 ]
+"302
+[v subProgram3@counterDisplay counterDisplay `uc  1 a 1 15 ]
+"329
+} 0
+"294
+[v _convertValueToGrayCode convertValueToGrayCode `(uc  1 e 1 0 ]
+{
+[v convertValueToGrayCode@value value `uc  1 a 1 wreg ]
+[v convertValueToGrayCode@value value `uc  1 a 1 wreg ]
+"296
+[v convertValueToGrayCode@value value `uc  1 a 1 0 ]
+"297
+} 0
+"264
+[v _subProgram2 subProgram2 `(v  1 e 1 0 ]
+{
+"272
+[v subProgram2@binBuffer binBuffer `[8]uc  1 a 8 7 ]
+"270
+[v subProgram2@counter counter `uc  1 a 1 15 ]
+"292
+} 0
+"234
+[v _subProgram1 subProgram1 `(v  1 e 1 0 ]
+{
+"242
+[v subProgram1@binBuffer binBuffer `[8]uc  1 a 8 7 ]
+"240
+[v subProgram1@counter counter `uc  1 a 1 15 ]
+"262
+} 0
+"91
+[v _printMask printMask `(v  1 e 1 0 ]
+{
+"93
+[v printMask@value value `uc  1 a 1 2 ]
+"91
+[v printMask@mask mask `*.39uc  1 p 2 0 ]
+"105
+} 0
+"223
+[v _lcd_str lcd_str `(v  1 e 1 0 ]
+{
+"225
+[v lcd_str@i i `uc  1 a 1 6 ]
+"223
+[v lcd_str@str str `*.25Cuc  1 p 2 2 ]
+"232
+} 0
+"193
+[v _lcd_dat lcd_dat `(v  1 e 1 0 ]
+{
+[v lcd_dat@val val `uc  1 a 1 wreg ]
+[v lcd_dat@val val `uc  1 a 1 wreg ]
+"195
+[v lcd_dat@val val `uc  1 a 1 1 ]
+"202
+} 0
+"600
+[v _isProgramInterupted isProgramInterupted `(i  1 e 2 0 ]
+{
+"602
+[v isProgramInterupted@i i `ui  1 a 2 2 ]
+"615
+} 0
+"81
+[v _intToBinary intToBinary `(v  1 e 1 0 ]
+{
+"83
+[v intToBinary@i i `s  1 a 2 5 ]
+"81
+[v intToBinary@buffor buffor `*.39uc  1 p 2 0 ]
+[v intToBinary@value value `uc  1 p 1 2 ]
+"88
+} 0
+"204
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"221
+} 0
+"182
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@val val `uc  1 a 1 wreg ]
+[v lcd_cmd@val val `uc  1 a 1 wreg ]
+"184
+[v lcd_cmd@val val `uc  1 a 1 1 ]
+"191
+} 0
+"177
+[v _lcd_wr lcd_wr `(v  1 e 1 0 ]
+{
+[v lcd_wr@val val `uc  1 a 1 wreg ]
+[v lcd_wr@val val `uc  1 a 1 wreg ]
+"179
+[v lcd_wr@val val `uc  1 a 1 0 ]
+"180
+} 0
+"143
+[v _delay delay `(v  1 e 1 0 ]
+{
+"145
+[v delay@i i `ui  1 a 2 2 ]
+"146
+[v delay@j j `uc  1 a 1 4 ]
+"143
+[v delay@ms ms `ui  1 p 2 0 ]
+"160
+} 0
+"617
+[v _changeProgram changeProgram `(v  1 e 1 0 ]
+{
+"619
+[v changeProgram@i i `ui  1 a 2 4 ]
+"617
+[v changeProgram@program program `*.39ui  1 p 2 0 ]
+"642
+} 0
